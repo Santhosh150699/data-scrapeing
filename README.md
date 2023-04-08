@@ -1,4 +1,4 @@
-# data-scrapeing
+# Data-scrapeing
 # Problem Statement:
 Today, data is scattered everywhere in the world. Especially in social media, there may be a big quantity of data on Facebook, Instagram, Youtube, Twitter, etc. This consists of pictures and films on Youtube and Instagram as compared to Facebook and Twitter. To get the real facts on Twitter, you want to scrape the data from Twitter. You Need to Scrape the data like (date, id, url, tweet content, user,reply count, retweet count,language, source, like count etc) from twitter.
 
@@ -15,5 +15,23 @@ example:
  
 Create a GUI using streamlit that should contain the feature to enter the keyword or Hashtag to be searched, select the date range and limit the tweet count need to be scraped. After scraping, the data needs to be displayed in the page and need a button to upload the data into Database and download the data into csv and json format.
 
-Results:
+# Results:
+
 You have to build a solution that should be able to scrape the twitter data and store that in the database and allow the user to download the data with multiple data formats.
+Workflow:
+The code first inputs the Hashtag/Keyword from the user along with Date search range and limit of number of data.
+The code then scrapes the data from Twitter and stores them in an array.
+This array is then converted to a DataFrame and displayed on the screen.
+The DataFrame is then converted to CSV and JSON formats along with eshtablising a connection with MongoDB Database for uploading purposes.
+If the user clicks on Download options for each of the two data formats, the information gets downloaded in the desired file format.
+User is then presented with an option of uploading the Data into the Database as initialized in step 4.
+The code also creates a sidebar which shows all the uploaded Databases along with an option to delete all Databases.
+Once the User clicks on a previously uploaded database, they are shown the data in a DataFrame format.
+Additionally, the User is also presented with an option to download the old data in CSV and JSON format.
+
+# Concepts involved:
+
+ 1.Python Scripting
+ 2.MongoDB
+ 3.Streamlit
+ 4.Snscrape
