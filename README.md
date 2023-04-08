@@ -32,6 +32,9 @@ Additionally, the User is also presented with an option to download the old data
 # Concepts involved:
 
  1.Python Scripting
+ 
  2.MongoDB
+ 
  3.Streamlit
+ 
  4.Snscrape
