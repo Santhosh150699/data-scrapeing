@@ -44,26 +44,26 @@ Pre-requisites: Python and MongoDB must be installed in your system.
 
 Open cmd:
 
-(base) C:\Users\Usernme>pip install virtualenv
+1.(base) C:\Users\Usernme>pip install virtualenv
 
-(base) C:\Users\Usernme>virtualenv test_env
+2.(base) C:\Users\Usernme>virtualenv test_env
 
-(base) C:\Users\Usernme>cd test_env
+3.(base) C:\Users\Usernme>cd test_env
 
-(base) C:\Users\Usernme\test_env>cd Scripts
+4.(base) C:\Users\Usernme\test_env>cd Scripts
 
-(base) C:\Users\Usernme\test_env\Scripts>activate
+5.(base) C:\Users\Usernme\test_env\Scripts>activate
 
-(test_env) C:\Users\Usernme\test_env\Scripts>mkdir Scraper
+6.(test_env) C:\Users\Usernme\test_env\Scripts>mkdir Scraper
 
-(test_env) C:\Users\Usernme\test_env\Scripts>cd Scraper
+7.(test_env) C:\Users\Usernme\test_env\Scripts>cd Scraper
 
-At this point, download the github files into the folder created by step 7. This folder is most likely located in Users>Username>test_env>Scripts>Scraper. You can search for this folder by typing "Scraper" in the "Search this PC" tab in "This PC".
+8.At this point, download the github files into the folder created by step 7. This folder is most likely located in Users>Username>test_env>Scripts>Scraper. You can search for this folder by typing "Scraper" in the "Search this PC" tab in "This PC".
 
-(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>pip install -r requirement.txt
+9.(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>pip install -r requirement.txt
 
-(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
+10.(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
 
-You can now view your Streamlit app in your browser with  Local URL: http://localhost:8501
+11.You can now view your Streamlit app in your browser with  Local URL: http://localhost:8501
 
-You can view in browser by using Network URL: http://192.168.1.6:8501
+12.You can view in browser by using Network URL: http://192.168.1.6:8501
