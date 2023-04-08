@@ -31,39 +31,39 @@ Additionally, the User is also presented with an option to download the old data
 
 # Concepts involved:
 
- 1.Python Scripting
+ 1. Python Scripting
  
- 2.MongoDB
+ 2. MongoDB
  
- 3.Streamlit
+ 3. Streamlit
  
- 4.Snscrape
+ 4. Snscrape
  
 # HOW TO RUN TWITTER SCRAPER IN YOUR SYSTEM:
 Pre-requisites: Python and MongoDB must be installed in your system.
 
 Open cmd:
 
-1.(base) C:\Users\Usernme>pip install virtualenv
+1. (base) C:\Users\Usernme>pip install virtualenv
 
-2.(base) C:\Users\Usernme>virtualenv test_env
+2. (base) C:\Users\Usernme>virtualenv test_env
 
-3.(base) C:\Users\Usernme>cd test_env
+3. (base) C:\Users\Usernme>cd test_env
 
-4.(base) C:\Users\Usernme\test_env>cd Scripts
+4. (base) C:\Users\Usernme\test_env>cd Scripts
 
-5.(base) C:\Users\Usernme\test_env\Scripts>activate
+5. (base) C:\Users\Usernme\test_env\Scripts>activate
 
-6.(test_env) C:\Users\Usernme\test_env\Scripts>mkdir Scraper
+6. (test_env) C:\Users\Usernme\test_env\Scripts>mkdir Scraper
 
-7.(test_env) C:\Users\Usernme\test_env\Scripts>cd Scraper
+7. (test_env) C:\Users\Usernme\test_env\Scripts>cd Scraper
 
-8.At this point, download the github files into the folder created by step 7. This folder is most likely located in Users>Username>test_env>Scripts>Scraper. You can search for this folder by typing "Scraper" in the "Search this PC" tab in "This PC".
+8. At this point, download the github files into the folder created by step 7. This folder is most likely located in Users>Username>test_env>Scripts>Scraper. You can search for this folder by typing "Scraper" in the "Search this PC" tab in "This PC".
 
-9.(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>pip install -r requirement.txt
+9. (test_env) C:\Users\Usernme\test_env\Scripts\Scraper>pip install -r requirement.txt
 
-10.(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
+10. (test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
 
-11.You can now view your Streamlit app in your browser with  Local URL: http://localhost:8501
+11. You can now view your Streamlit app in your browser with  Local URL: http://localhost:8501
 
-12.You can view in browser by using Network URL: http://192.168.1.6:8501
+12. You can view in browser by using Network URL: http://192.168.1.6:8501
