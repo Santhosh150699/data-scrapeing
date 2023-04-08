@@ -38,3 +38,30 @@ Additionally, the User is also presented with an option to download the old data
  3.Streamlit
  
  4.Snscrape
+ 
+# HOW TO RUN TWITTER SCRAPER IN YOUR SYSTEM:
+Pre-requisites: Python and MongoDB must be installed in your system.
+
+Open cmd:
+
+(base) C:\Users\Usernme>pip install virtualenv
+
+(base) C:\Users\Usernme>virtualenv test_env
+
+(base) C:\Users\Usernme>cd test_env
+
+(base) C:\Users\Usernme\test_env>cd Scripts
+
+(base) C:\Users\Usernme\test_env\Scripts>activate
+
+(test_env) C:\Users\Usernme\test_env\Scripts>mkdir Scraper
+
+(test_env) C:\Users\Usernme\test_env\Scripts>cd Scraper
+
+At this point, download the github files into the folder created by step 7. This folder is most likely located in Users>Username>test_env>Scripts>Scraper. You can search for this folder by typing "Scraper" in the "Search this PC" tab in "This PC".
+
+(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>pip install -r requirement.txt
+
+(test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
+
+You can now view your Streamlit app in your browser with URL : http://localhost:8501
