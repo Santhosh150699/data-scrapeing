@@ -64,4 +64,6 @@ At this point, download the github files into the folder created by step 7. This
 
 (test_env) C:\Users\Usernme\test_env\Scripts\Scraper>streamlit run Twitter_scrapping_code.py
 
-You can now view your Streamlit app in your browser with URL : http://192.168.1.6:8501
+You can now view your Streamlit app in your browser with  Local URL: http://localhost:8501
+
+You can view in browser by using Network URL: http://192.168.1.6:8501
